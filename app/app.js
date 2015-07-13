@@ -20,7 +20,7 @@ App.fn.renderAgeLoop = function(){
 
 App.fn.renderAge = function(timeLeft){
   var now = new Date(Date.now());
-  var timeLeft = countdown(new Date(now.getFullYear(), now.getMonth(), now.getDate())).toString();
+  var timeLeft = countdown(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 24)).toString();
 
   requestAnimationFrame(function(){
     this.html(this.view('age')({
