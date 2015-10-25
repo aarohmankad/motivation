@@ -30,9 +30,9 @@ body, input {
   font-family: 'Avenir', 'helvetica neue', helvetica, arial, sans-serif;
 }
 
-.age-label {
+.timeLeft-label {
   color: #C5CAE9;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1;
   margin: 0 0 20 0px;
 }
@@ -40,7 +40,7 @@ body, input {
 .count {
   color: #C5CAE9;
   margin: 0;
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 1;
   font-weight: 600;
 }
