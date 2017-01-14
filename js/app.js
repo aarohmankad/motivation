@@ -19,8 +19,8 @@ App.fn.renderAgeLoop = function(){
 };
 
 App.fn.renderAge = function(timeLeft){
-  var now = new Date(Date.now());
-  var timeLeft = countdown(new Date(now.getFullYear(), now.getMonth(), now.getDate(), 24)).toString();
+  // var now = new Date(Date.now());
+  var timeLeft = countdown(new Date(2018, 4, 5, 24)).toString();
 
   requestAnimationFrame(function(){
     this.html(this.view('timeLeft')({
